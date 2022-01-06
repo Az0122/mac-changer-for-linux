@@ -39,22 +39,19 @@ echo tybe mac addres you want remember the mac addres have to start with 0X:XX:X
  
 read mac
 
-$echo sudo ifconfig wlan0 down 
-$echo sudo ifconfig wlan0 hw ether $mac
-$echo sudo ifconfig wlan0 up 
-$echo ifconfig 
-
+sudo ifconfig wlan0 down 
+sudo ifconfig wlan0 hw ether $mac
+sudo ifconfig wlan0 up 
+ifconfig 
 else
-
 echo tybe mac addres you want remember the mac addres have to start with 0X:XX:XX:XX:XX:XX : 
 
 read mac
 
-$echo sudo ifconfig eth0 down 
-$echo sudo ifconfig eth0 hw ether $mac
-$echo sudo ifconfig eth0 up 
-$echo ifconfig
- 
+sudo ifconfig eth0 down 
+sudo ifconfig eth0 hw ether $mac
+sudo ifconfig eth0 up 
+ifconfig 
 fi
  echo '''
 
