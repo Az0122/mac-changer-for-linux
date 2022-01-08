@@ -9,7 +9,7 @@ echo '''
 ─────▀█▀█▀
 
 
-insta : @r7ghz | snapchat : @uur_2v | github : Az0122
+insta : @r7jhz1 | snapchat : @uur_2v | github : Az0122
 
 this progrem just used in linux 
 '''
